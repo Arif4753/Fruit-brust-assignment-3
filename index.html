@@ -218,10 +218,10 @@
     </section>
     <!-- Deal Of the day -->
     <section class="max-w-screen-xl mx-auto mt-64 mb-12">
-      <div class="flex  flex-col lg:flex-row ml-20justify-between items-center">
+      <div class="flex  flex-col md:grid md:grid-cols-2 lg:flex-row ml-20justify-between items-center">
         <div class="flex-1">
-          <h1 class="text-5xl text-center font-extrabold mb-6">Deal of the day</h1>
-          <p class="font-medium text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <h1 class="text-5xl text-center md:text-left font-extrabold mb-6">Deal of the day</h1>
+          <p class="font-medium text-center md:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <div class="flex-1 text-right">
           <span class="countdown  text-7xl">
@@ -234,8 +234,8 @@
       </div>
 
       <!-- Card Container -->
-      <div class=" mt-16 flex gap-6 flex-col  lg:flex-row">
-        <div class="card w-96  border-2 ">
+      <div class=" mt-16 flex gap-6 flex-col md:grid md:grid-cols-2 md:items-center md:justify-center lg:flex-row">
+        <div class="card md:w-96  border-2 ">
           <figure class="px-10 pt-10">
             <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -280,7 +280,7 @@
             </div>
           </div>
         </div>
-        <div class="card w-96  border-2 sh">
+        <div class="card md:w-96  border-2 sh">
           <figure class="px-10 pt-10">
             <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -325,7 +325,7 @@
             </div>
           </div>
         </div>
-        <div class="card w-96  border-2 ">
+        <div class="card md:w-96  border-2 ">
           <figure class="px-10 pt-10">
             <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -370,7 +370,7 @@
             </div>
           </div>
         </div>
-        <div class="card w-96  border-2 ">
+        <div class="card md:w-96  border-2 ">
           <figure class="px-10 pt-10">
             <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -429,7 +429,7 @@
         <div class="hero-overlay bg-opacity-80"></div>
         <div class="lg:hero-content text-center flex-col  text-neutral-content">
           <div class="">
-            <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+            <h1 class="mb-5 text-5xl font-bold mt-9">Meet the team section</h1>
             <p class="mb-5 max-w-xl text-center mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             <!-- Section Card Container -->
             <div class=" flex flex-col lg:flex-row gap-24">
@@ -506,6 +506,7 @@
         <p class="max-w-lg text-center mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!-- part container -->
+        <div class="hidden min-[769px]:block">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 items-center">
           <!-- Left -->
           <div class="flex flex-col gap-12  ">
@@ -555,7 +556,7 @@
           </div>
           <!-- Right -->
           <div class="">
-            <div class="flex flex-col gap-12">
+            <div class="flex flex-col gap-10 md:gap-12">
 
 
               <div class="flex items-center gap-6 text-right">
@@ -571,7 +572,7 @@
                   <i class="fa-solid fa-people-group"></i>
                 </div>
               </div>
-              <div class="flex items-center gap-6 text-right">
+              <div class="flex items-center gap-6 text-right md:text-right">
               
                 
                 <div class="">
@@ -602,8 +603,67 @@
           </div>
         </div>
       </div>
-    </section>
-    
+    </div>
+
+
+
+
+
+    <!-- Mobile View -->
+    <div class="min-[769px]:hidden">
+      <!-- Card Container -->
+      <img class="" src="./images/banner2.png" alt="">
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+      <div class=" flex  flex-col items-center justify-center mt-20">
+        <!-- Card -->
+        <img class="h-[24px]" src="./images/logo-1.svg" alt="">
+        <h1 class="text-2xl font-extrabold mb-5">Dedicated Team</h1>
+        <div class="w-36 bg-black h-[2px] mb-4 " ></div>
+        <p class="max-w-xs text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+        
+      </div>
+
+     </div>
+     </section>
       
     
 
